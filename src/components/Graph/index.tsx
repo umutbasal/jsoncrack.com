@@ -195,10 +195,6 @@ export const Graph = ({ isWidget = false }: GraphProps) => {
 
   if (viewType === "error") return <ErrorView />;
 
-  if (viewType === "premium" && !isWidget) {
-    if (!isPremium) return <PremiumView />;
-  }
-
   return (
     <>
       <Loading loading={loading} message="Painting graph..." />
