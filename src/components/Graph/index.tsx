@@ -14,7 +14,6 @@ import useModal from "src/store/useModal";
 import useUser from "src/store/useUser";
 import { NodeData } from "src/types/models";
 import { ErrorView } from "./ErrorView";
-import { PremiumView } from "./PremiumView";
 
 const Edge = dynamic(() => import("reaflow").then(r => r.Edge), {
   ssr: false,
