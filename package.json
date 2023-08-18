@@ -12,6 +12,9 @@
     "lint:fix": "eslint --fix src & prettier --write src",
     "analyze": "ANALYZE=true npm run build"
   },
+  "engines": {
+    "node": ">=16"
+  },
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/server": "^11.11.0",
